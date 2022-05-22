@@ -85,7 +85,7 @@ void distinction(int marks[][5], int m)
 int main()
 {
     int m;
-    printf("enter the total number of the student: ", m);
+    printf("enter the total number of the student: ");
     scanf("%d", &m);
     int s[m][5];
     for (int i = 0; i < m; i++)
